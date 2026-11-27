@@ -1,0 +1,783 @@
+import type { ReferenceDesign } from "./model";
+export const photoCatalog: ReferenceDesign[] = [
+  {
+    "id": "photo-07cddef1-1fc8-47e4-a28a-613e60912590",
+    "name": "Gaun — contoh 1",
+    "image": "/references/photo-07cddef1-1fc8-47e4-a28a-613e60912590.jpg",
+    "attributes": [
+      "dress"
+    ],
+    "source": "Clothing Dataset — Alexey Grigorev dan kontributor (CC0)",
+    "kind": "photo",
+    "sourceUrl": "https://github.com/alexeygrigorev/clothing-dataset-small/blob/11961516512414bf9f6c150a832cfd21b54a6b54/validation/dress/07cddef1-1fc8-47e4-a28a-613e60912590.jpg",
+    "license": "CC0-1.0",
+    "category": "dress"
+  },
+  {
+    "id": "photo-19e4de0d-fb90-47c2-83b4-37e3652c5a16",
+    "name": "Gaun — contoh 2",
+    "image": "/references/photo-19e4de0d-fb90-47c2-83b4-37e3652c5a16.jpg",
+    "attributes": [
+      "dress"
+    ],
+    "source": "Clothing Dataset — Alexey Grigorev dan kontributor (CC0)",
+    "kind": "photo",
+    "sourceUrl": "https://github.com/alexeygrigorev/clothing-dataset-small/blob/11961516512414bf9f6c150a832cfd21b54a6b54/validation/dress/19e4de0d-fb90-47c2-83b4-37e3652c5a16.jpg",
+    "license": "CC0-1.0",
+    "category": "dress"
+  },
+  {
+    "id": "photo-22ee2330-a2e7-4abf-aec1-0699e819a248",
+    "name": "Gaun — contoh 3",
+    "image": "/references/photo-22ee2330-a2e7-4abf-aec1-0699e819a248.jpg",
+    "attributes": [
+      "dress"
+    ],
+    "source": "Clothing Dataset — Alexey Grigorev dan kontributor (CC0)",
+    "kind": "photo",
+    "sourceUrl": "https://github.com/alexeygrigorev/clothing-dataset-small/blob/11961516512414bf9f6c150a832cfd21b54a6b54/validation/dress/22ee2330-a2e7-4abf-aec1-0699e819a248.jpg",
+    "license": "CC0-1.0",
+    "category": "dress"
+  },
+  {
+    "id": "photo-24890459-3da7-4976-a837-f289e7af0d48",
+    "name": "Gaun — contoh 4",
+    "image": "/references/photo-24890459-3da7-4976-a837-f289e7af0d48.jpg",
+    "attributes": [
+      "dress"
+    ],
+    "source": "Clothing Dataset — Alexey Grigorev dan kontributor (CC0)",
+    "kind": "photo",
+    "sourceUrl": "https://github.com/alexeygrigorev/clothing-dataset-small/blob/11961516512414bf9f6c150a832cfd21b54a6b54/validation/dress/24890459-3da7-4976-a837-f289e7af0d48.jpg",
+    "license": "CC0-1.0",
+    "category": "dress"
+  },
+  {
+    "id": "photo-35f5fecb-755a-45d6-ac3d-3feb8299dc87",
+    "name": "Gaun — contoh 5",
+    "image": "/references/photo-35f5fecb-755a-45d6-ac3d-3feb8299dc87.jpg",
+    "attributes": [
+      "dress"
+    ],
+    "source": "Clothing Dataset — Alexey Grigorev dan kontributor (CC0)",
+    "kind": "photo",
+    "sourceUrl": "https://github.com/alexeygrigorev/clothing-dataset-small/blob/11961516512414bf9f6c150a832cfd21b54a6b54/validation/dress/35f5fecb-755a-45d6-ac3d-3feb8299dc87.jpg",
+    "license": "CC0-1.0",
+    "category": "dress"
+  },
+  {
+    "id": "photo-3eeaf330-2460-4d7f-844f-d7254d12e587",
+    "name": "Gaun — contoh 6",
+    "image": "/references/photo-3eeaf330-2460-4d7f-844f-d7254d12e587.jpg",
+    "attributes": [
+      "dress"
+    ],
+    "source": "Clothing Dataset — Alexey Grigorev dan kontributor (CC0)",
+    "kind": "photo",
+    "sourceUrl": "https://github.com/alexeygrigorev/clothing-dataset-small/blob/11961516512414bf9f6c150a832cfd21b54a6b54/validation/dress/3eeaf330-2460-4d7f-844f-d7254d12e587.jpg",
+    "license": "CC0-1.0",
+    "category": "dress"
+  },
+  {
+    "id": "photo-4114a9c0-eea0-442c-af14-8df6c586a016",
+    "name": "Gaun — contoh 7",
+    "image": "/references/photo-4114a9c0-eea0-442c-af14-8df6c586a016.jpg",
+    "attributes": [
+      "dress"
+    ],
+    "source": "Clothing Dataset — Alexey Grigorev dan kontributor (CC0)",
+    "kind": "photo",
+    "sourceUrl": "https://github.com/alexeygrigorev/clothing-dataset-small/blob/11961516512414bf9f6c150a832cfd21b54a6b54/validation/dress/4114a9c0-eea0-442c-af14-8df6c586a016.jpg",
+    "license": "CC0-1.0",
+    "category": "dress"
+  },
+  {
+    "id": "photo-0354015d-9ed3-4175-9f85-dd5725dce0e1",
+    "name": "Atasan lengan panjang — contoh 1",
+    "image": "/references/photo-0354015d-9ed3-4175-9f85-dd5725dce0e1.jpg",
+    "attributes": [
+      "long_sleeve"
+    ],
+    "source": "Clothing Dataset — Alexey Grigorev dan kontributor (CC0)",
+    "kind": "photo",
+    "sourceUrl": "https://github.com/alexeygrigorev/clothing-dataset-small/blob/11961516512414bf9f6c150a832cfd21b54a6b54/validation/longsleeve/0354015d-9ed3-4175-9f85-dd5725dce0e1.jpg",
+    "license": "CC0-1.0",
+    "category": "long_sleeve"
+  },
+  {
+    "id": "photo-060062e8-b564-4aaa-8d9e-18e735915e37",
+    "name": "Atasan lengan panjang — contoh 2",
+    "image": "/references/photo-060062e8-b564-4aaa-8d9e-18e735915e37.jpg",
+    "attributes": [
+      "long_sleeve"
+    ],
+    "source": "Clothing Dataset — Alexey Grigorev dan kontributor (CC0)",
+    "kind": "photo",
+    "sourceUrl": "https://github.com/alexeygrigorev/clothing-dataset-small/blob/11961516512414bf9f6c150a832cfd21b54a6b54/validation/longsleeve/060062e8-b564-4aaa-8d9e-18e735915e37.jpg",
+    "license": "CC0-1.0",
+    "category": "long_sleeve"
+  },
+  {
+    "id": "photo-0c6472ac-e3f8-443b-a884-2e60562c35b1",
+    "name": "Atasan lengan panjang — contoh 3",
+    "image": "/references/photo-0c6472ac-e3f8-443b-a884-2e60562c35b1.jpg",
+    "attributes": [
+      "long_sleeve"
+    ],
+    "source": "Clothing Dataset — Alexey Grigorev dan kontributor (CC0)",
+    "kind": "photo",
+    "sourceUrl": "https://github.com/alexeygrigorev/clothing-dataset-small/blob/11961516512414bf9f6c150a832cfd21b54a6b54/validation/longsleeve/0c6472ac-e3f8-443b-a884-2e60562c35b1.jpg",
+    "license": "CC0-1.0",
+    "category": "long_sleeve"
+  },
+  {
+    "id": "photo-0deb9798-5e87-413f-93aa-e19017648a4b",
+    "name": "Atasan lengan panjang — contoh 4",
+    "image": "/references/photo-0deb9798-5e87-413f-93aa-e19017648a4b.jpg",
+    "attributes": [
+      "long_sleeve"
+    ],
+    "source": "Clothing Dataset — Alexey Grigorev dan kontributor (CC0)",
+    "kind": "photo",
+    "sourceUrl": "https://github.com/alexeygrigorev/clothing-dataset-small/blob/11961516512414bf9f6c150a832cfd21b54a6b54/validation/longsleeve/0deb9798-5e87-413f-93aa-e19017648a4b.jpg",
+    "license": "CC0-1.0",
+    "category": "long_sleeve"
+  },
+  {
+    "id": "photo-11331826-e5c9-461d-acd2-b078022a9146",
+    "name": "Atasan lengan panjang — contoh 5",
+    "image": "/references/photo-11331826-e5c9-461d-acd2-b078022a9146.jpg",
+    "attributes": [
+      "long_sleeve"
+    ],
+    "source": "Clothing Dataset — Alexey Grigorev dan kontributor (CC0)",
+    "kind": "photo",
+    "sourceUrl": "https://github.com/alexeygrigorev/clothing-dataset-small/blob/11961516512414bf9f6c150a832cfd21b54a6b54/validation/longsleeve/11331826-e5c9-461d-acd2-b078022a9146.jpg",
+    "license": "CC0-1.0",
+    "category": "long_sleeve"
+  },
+  {
+    "id": "photo-20e44d00-fc8c-46d9-9349-c931850ec57a",
+    "name": "Atasan lengan panjang — contoh 6",
+    "image": "/references/photo-20e44d00-fc8c-46d9-9349-c931850ec57a.jpg",
+    "attributes": [
+      "long_sleeve"
+    ],
+    "source": "Clothing Dataset — Alexey Grigorev dan kontributor (CC0)",
+    "kind": "photo",
+    "sourceUrl": "https://github.com/alexeygrigorev/clothing-dataset-small/blob/11961516512414bf9f6c150a832cfd21b54a6b54/validation/longsleeve/20e44d00-fc8c-46d9-9349-c931850ec57a.jpg",
+    "license": "CC0-1.0",
+    "category": "long_sleeve"
+  },
+  {
+    "id": "photo-20e5a129-ac26-4ec2-9bf1-f63427503929",
+    "name": "Atasan lengan panjang — contoh 7",
+    "image": "/references/photo-20e5a129-ac26-4ec2-9bf1-f63427503929.jpg",
+    "attributes": [
+      "long_sleeve"
+    ],
+    "source": "Clothing Dataset — Alexey Grigorev dan kontributor (CC0)",
+    "kind": "photo",
+    "sourceUrl": "https://github.com/alexeygrigorev/clothing-dataset-small/blob/11961516512414bf9f6c150a832cfd21b54a6b54/validation/longsleeve/20e5a129-ac26-4ec2-9bf1-f63427503929.jpg",
+    "license": "CC0-1.0",
+    "category": "long_sleeve"
+  },
+  {
+    "id": "photo-0ad8629f-2e9f-4591-a661-7489d6d49737",
+    "name": "Jaket atau luaran — contoh 1",
+    "image": "/references/photo-0ad8629f-2e9f-4591-a661-7489d6d49737.jpg",
+    "attributes": [
+      "jacket"
+    ],
+    "source": "Clothing Dataset — Alexey Grigorev dan kontributor (CC0)",
+    "kind": "photo",
+    "sourceUrl": "https://github.com/alexeygrigorev/clothing-dataset-small/blob/11961516512414bf9f6c150a832cfd21b54a6b54/validation/outwear/0ad8629f-2e9f-4591-a661-7489d6d49737.jpg",
+    "license": "CC0-1.0",
+    "category": "jacket"
+  },
+  {
+    "id": "photo-0c7412e7-81eb-40b7-be64-ce9782103529",
+    "name": "Jaket atau luaran — contoh 2",
+    "image": "/references/photo-0c7412e7-81eb-40b7-be64-ce9782103529.jpg",
+    "attributes": [
+      "jacket"
+    ],
+    "source": "Clothing Dataset — Alexey Grigorev dan kontributor (CC0)",
+    "kind": "photo",
+    "sourceUrl": "https://github.com/alexeygrigorev/clothing-dataset-small/blob/11961516512414bf9f6c150a832cfd21b54a6b54/validation/outwear/0c7412e7-81eb-40b7-be64-ce9782103529.jpg",
+    "license": "CC0-1.0",
+    "category": "jacket"
+  },
+  {
+    "id": "photo-161e35df-93d4-4b30-817e-de03c8c1d55a",
+    "name": "Jaket atau luaran — contoh 3",
+    "image": "/references/photo-161e35df-93d4-4b30-817e-de03c8c1d55a.jpg",
+    "attributes": [
+      "jacket"
+    ],
+    "source": "Clothing Dataset — Alexey Grigorev dan kontributor (CC0)",
+    "kind": "photo",
+    "sourceUrl": "https://github.com/alexeygrigorev/clothing-dataset-small/blob/11961516512414bf9f6c150a832cfd21b54a6b54/validation/outwear/161e35df-93d4-4b30-817e-de03c8c1d55a.jpg",
+    "license": "CC0-1.0",
+    "category": "jacket"
+  },
+  {
+    "id": "photo-2160a577-406a-4812-ada2-2a3cb30c2ba8",
+    "name": "Jaket atau luaran — contoh 4",
+    "image": "/references/photo-2160a577-406a-4812-ada2-2a3cb30c2ba8.jpg",
+    "attributes": [
+      "jacket"
+    ],
+    "source": "Clothing Dataset — Alexey Grigorev dan kontributor (CC0)",
+    "kind": "photo",
+    "sourceUrl": "https://github.com/alexeygrigorev/clothing-dataset-small/blob/11961516512414bf9f6c150a832cfd21b54a6b54/validation/outwear/2160a577-406a-4812-ada2-2a3cb30c2ba8.jpg",
+    "license": "CC0-1.0",
+    "category": "jacket"
+  },
+  {
+    "id": "photo-2c1c3c2a-5b22-4133-9509-1877d6a106a0",
+    "name": "Jaket atau luaran — contoh 5",
+    "image": "/references/photo-2c1c3c2a-5b22-4133-9509-1877d6a106a0.jpg",
+    "attributes": [
+      "jacket"
+    ],
+    "source": "Clothing Dataset — Alexey Grigorev dan kontributor (CC0)",
+    "kind": "photo",
+    "sourceUrl": "https://github.com/alexeygrigorev/clothing-dataset-small/blob/11961516512414bf9f6c150a832cfd21b54a6b54/validation/outwear/2c1c3c2a-5b22-4133-9509-1877d6a106a0.jpg",
+    "license": "CC0-1.0",
+    "category": "jacket"
+  },
+  {
+    "id": "photo-2ea87992-6eb5-46a2-9ac6-e4ac727179aa",
+    "name": "Jaket atau luaran — contoh 6",
+    "image": "/references/photo-2ea87992-6eb5-46a2-9ac6-e4ac727179aa.jpg",
+    "attributes": [
+      "jacket"
+    ],
+    "source": "Clothing Dataset — Alexey Grigorev dan kontributor (CC0)",
+    "kind": "photo",
+    "sourceUrl": "https://github.com/alexeygrigorev/clothing-dataset-small/blob/11961516512414bf9f6c150a832cfd21b54a6b54/validation/outwear/2ea87992-6eb5-46a2-9ac6-e4ac727179aa.jpg",
+    "license": "CC0-1.0",
+    "category": "jacket"
+  },
+  {
+    "id": "photo-3108045a-9975-4ad8-b5ed-e0a065e5d397",
+    "name": "Jaket atau luaran — contoh 7",
+    "image": "/references/photo-3108045a-9975-4ad8-b5ed-e0a065e5d397.jpg",
+    "attributes": [
+      "jacket"
+    ],
+    "source": "Clothing Dataset — Alexey Grigorev dan kontributor (CC0)",
+    "kind": "photo",
+    "sourceUrl": "https://github.com/alexeygrigorev/clothing-dataset-small/blob/11961516512414bf9f6c150a832cfd21b54a6b54/validation/outwear/3108045a-9975-4ad8-b5ed-e0a065e5d397.jpg",
+    "license": "CC0-1.0",
+    "category": "jacket"
+  },
+  {
+    "id": "photo-012d1ca9-baaf-4b01-8b60-955f3408b1b7",
+    "name": "Celana panjang — contoh 1",
+    "image": "/references/photo-012d1ca9-baaf-4b01-8b60-955f3408b1b7.jpg",
+    "attributes": [
+      "pants"
+    ],
+    "source": "Clothing Dataset — Alexey Grigorev dan kontributor (CC0)",
+    "kind": "photo",
+    "sourceUrl": "https://github.com/alexeygrigorev/clothing-dataset-small/blob/11961516512414bf9f6c150a832cfd21b54a6b54/validation/pants/012d1ca9-baaf-4b01-8b60-955f3408b1b7.jpg",
+    "license": "CC0-1.0",
+    "category": "pants"
+  },
+  {
+    "id": "photo-0257eb81-f3d3-4704-8299-8b6ab20f1ed4",
+    "name": "Celana panjang — contoh 2",
+    "image": "/references/photo-0257eb81-f3d3-4704-8299-8b6ab20f1ed4.jpg",
+    "attributes": [
+      "pants"
+    ],
+    "source": "Clothing Dataset — Alexey Grigorev dan kontributor (CC0)",
+    "kind": "photo",
+    "sourceUrl": "https://github.com/alexeygrigorev/clothing-dataset-small/blob/11961516512414bf9f6c150a832cfd21b54a6b54/validation/pants/0257eb81-f3d3-4704-8299-8b6ab20f1ed4.jpg",
+    "license": "CC0-1.0",
+    "category": "pants"
+  },
+  {
+    "id": "photo-081b5ec1-13a6-43c8-991f-9ad2020f646a",
+    "name": "Celana panjang — contoh 3",
+    "image": "/references/photo-081b5ec1-13a6-43c8-991f-9ad2020f646a.jpg",
+    "attributes": [
+      "pants"
+    ],
+    "source": "Clothing Dataset — Alexey Grigorev dan kontributor (CC0)",
+    "kind": "photo",
+    "sourceUrl": "https://github.com/alexeygrigorev/clothing-dataset-small/blob/11961516512414bf9f6c150a832cfd21b54a6b54/validation/pants/081b5ec1-13a6-43c8-991f-9ad2020f646a.jpg",
+    "license": "CC0-1.0",
+    "category": "pants"
+  },
+  {
+    "id": "photo-0d0bb91d-01d7-45df-827d-da96bbc44b15",
+    "name": "Celana panjang — contoh 4",
+    "image": "/references/photo-0d0bb91d-01d7-45df-827d-da96bbc44b15.jpg",
+    "attributes": [
+      "pants"
+    ],
+    "source": "Clothing Dataset — Alexey Grigorev dan kontributor (CC0)",
+    "kind": "photo",
+    "sourceUrl": "https://github.com/alexeygrigorev/clothing-dataset-small/blob/11961516512414bf9f6c150a832cfd21b54a6b54/validation/pants/0d0bb91d-01d7-45df-827d-da96bbc44b15.jpg",
+    "license": "CC0-1.0",
+    "category": "pants"
+  },
+  {
+    "id": "photo-17bebe65-17cc-42b3-885f-4e6c64a16f26",
+    "name": "Celana panjang — contoh 5",
+    "image": "/references/photo-17bebe65-17cc-42b3-885f-4e6c64a16f26.jpg",
+    "attributes": [
+      "pants"
+    ],
+    "source": "Clothing Dataset — Alexey Grigorev dan kontributor (CC0)",
+    "kind": "photo",
+    "sourceUrl": "https://github.com/alexeygrigorev/clothing-dataset-small/blob/11961516512414bf9f6c150a832cfd21b54a6b54/validation/pants/17bebe65-17cc-42b3-885f-4e6c64a16f26.jpg",
+    "license": "CC0-1.0",
+    "category": "pants"
+  },
+  {
+    "id": "photo-19ff0603-c52b-4d27-a9b9-cfd9da5e9f35",
+    "name": "Celana panjang — contoh 6",
+    "image": "/references/photo-19ff0603-c52b-4d27-a9b9-cfd9da5e9f35.jpg",
+    "attributes": [
+      "pants"
+    ],
+    "source": "Clothing Dataset — Alexey Grigorev dan kontributor (CC0)",
+    "kind": "photo",
+    "sourceUrl": "https://github.com/alexeygrigorev/clothing-dataset-small/blob/11961516512414bf9f6c150a832cfd21b54a6b54/validation/pants/19ff0603-c52b-4d27-a9b9-cfd9da5e9f35.jpg",
+    "license": "CC0-1.0",
+    "category": "pants"
+  },
+  {
+    "id": "photo-1f3fe0f5-4724-43f8-bfce-6e22d1f1f5ba",
+    "name": "Celana panjang — contoh 7",
+    "image": "/references/photo-1f3fe0f5-4724-43f8-bfce-6e22d1f1f5ba.jpg",
+    "attributes": [
+      "pants"
+    ],
+    "source": "Clothing Dataset — Alexey Grigorev dan kontributor (CC0)",
+    "kind": "photo",
+    "sourceUrl": "https://github.com/alexeygrigorev/clothing-dataset-small/blob/11961516512414bf9f6c150a832cfd21b54a6b54/validation/pants/1f3fe0f5-4724-43f8-bfce-6e22d1f1f5ba.jpg",
+    "license": "CC0-1.0",
+    "category": "pants"
+  },
+  {
+    "id": "photo-00143901-a14c-4600-960f-7747b4a3a8cd",
+    "name": "Kemeja — contoh 1",
+    "image": "/references/photo-00143901-a14c-4600-960f-7747b4a3a8cd.jpg",
+    "attributes": [
+      "shirt"
+    ],
+    "source": "Clothing Dataset — Alexey Grigorev dan kontributor (CC0)",
+    "kind": "photo",
+    "sourceUrl": "https://github.com/alexeygrigorev/clothing-dataset-small/blob/11961516512414bf9f6c150a832cfd21b54a6b54/validation/shirt/00143901-a14c-4600-960f-7747b4a3a8cd.jpg",
+    "license": "CC0-1.0",
+    "category": "shirt"
+  },
+  {
+    "id": "photo-0e7453e0-023c-4c34-b837-e6349846b112",
+    "name": "Kemeja — contoh 2",
+    "image": "/references/photo-0e7453e0-023c-4c34-b837-e6349846b112.jpg",
+    "attributes": [
+      "shirt"
+    ],
+    "source": "Clothing Dataset — Alexey Grigorev dan kontributor (CC0)",
+    "kind": "photo",
+    "sourceUrl": "https://github.com/alexeygrigorev/clothing-dataset-small/blob/11961516512414bf9f6c150a832cfd21b54a6b54/validation/shirt/0e7453e0-023c-4c34-b837-e6349846b112.jpg",
+    "license": "CC0-1.0",
+    "category": "shirt"
+  },
+  {
+    "id": "photo-118fb0e8-2783-4086-b81a-d2a332fbb4f2",
+    "name": "Kemeja — contoh 3",
+    "image": "/references/photo-118fb0e8-2783-4086-b81a-d2a332fbb4f2.jpg",
+    "attributes": [
+      "shirt"
+    ],
+    "source": "Clothing Dataset — Alexey Grigorev dan kontributor (CC0)",
+    "kind": "photo",
+    "sourceUrl": "https://github.com/alexeygrigorev/clothing-dataset-small/blob/11961516512414bf9f6c150a832cfd21b54a6b54/validation/shirt/118fb0e8-2783-4086-b81a-d2a332fbb4f2.jpg",
+    "license": "CC0-1.0",
+    "category": "shirt"
+  },
+  {
+    "id": "photo-1d2e0956-07d7-41d8-9286-ea98d1d32dbd",
+    "name": "Kemeja — contoh 4",
+    "image": "/references/photo-1d2e0956-07d7-41d8-9286-ea98d1d32dbd.jpg",
+    "attributes": [
+      "shirt"
+    ],
+    "source": "Clothing Dataset — Alexey Grigorev dan kontributor (CC0)",
+    "kind": "photo",
+    "sourceUrl": "https://github.com/alexeygrigorev/clothing-dataset-small/blob/11961516512414bf9f6c150a832cfd21b54a6b54/validation/shirt/1d2e0956-07d7-41d8-9286-ea98d1d32dbd.jpg",
+    "license": "CC0-1.0",
+    "category": "shirt"
+  },
+  {
+    "id": "photo-235230d6-8a23-4981-bc43-5e62c0570f44",
+    "name": "Kemeja — contoh 5",
+    "image": "/references/photo-235230d6-8a23-4981-bc43-5e62c0570f44.jpg",
+    "attributes": [
+      "shirt"
+    ],
+    "source": "Clothing Dataset — Alexey Grigorev dan kontributor (CC0)",
+    "kind": "photo",
+    "sourceUrl": "https://github.com/alexeygrigorev/clothing-dataset-small/blob/11961516512414bf9f6c150a832cfd21b54a6b54/validation/shirt/235230d6-8a23-4981-bc43-5e62c0570f44.jpg",
+    "license": "CC0-1.0",
+    "category": "shirt"
+  },
+  {
+    "id": "photo-29f8cf36-3ae6-4558-9f42-82f330c15b3d",
+    "name": "Kemeja — contoh 6",
+    "image": "/references/photo-29f8cf36-3ae6-4558-9f42-82f330c15b3d.jpg",
+    "attributes": [
+      "shirt"
+    ],
+    "source": "Clothing Dataset — Alexey Grigorev dan kontributor (CC0)",
+    "kind": "photo",
+    "sourceUrl": "https://github.com/alexeygrigorev/clothing-dataset-small/blob/11961516512414bf9f6c150a832cfd21b54a6b54/validation/shirt/29f8cf36-3ae6-4558-9f42-82f330c15b3d.jpg",
+    "license": "CC0-1.0",
+    "category": "shirt"
+  },
+  {
+    "id": "photo-309ead9a-2672-40b7-8a09-ab5fc6abccc0",
+    "name": "Kemeja — contoh 7",
+    "image": "/references/photo-309ead9a-2672-40b7-8a09-ab5fc6abccc0.jpg",
+    "attributes": [
+      "shirt"
+    ],
+    "source": "Clothing Dataset — Alexey Grigorev dan kontributor (CC0)",
+    "kind": "photo",
+    "sourceUrl": "https://github.com/alexeygrigorev/clothing-dataset-small/blob/11961516512414bf9f6c150a832cfd21b54a6b54/validation/shirt/309ead9a-2672-40b7-8a09-ab5fc6abccc0.jpg",
+    "license": "CC0-1.0",
+    "category": "shirt"
+  },
+  {
+    "id": "photo-0c4d3d88-9756-4211-83ad-2d6c68ea0043",
+    "name": "Celana pendek — contoh 1",
+    "image": "/references/photo-0c4d3d88-9756-4211-83ad-2d6c68ea0043.jpg",
+    "attributes": [
+      "shorts"
+    ],
+    "source": "Clothing Dataset — Alexey Grigorev dan kontributor (CC0)",
+    "kind": "photo",
+    "sourceUrl": "https://github.com/alexeygrigorev/clothing-dataset-small/blob/11961516512414bf9f6c150a832cfd21b54a6b54/validation/shorts/0c4d3d88-9756-4211-83ad-2d6c68ea0043.jpg",
+    "license": "CC0-1.0",
+    "category": "shorts"
+  },
+  {
+    "id": "photo-0e88c86f-911f-4dd6-85b6-cb953e9dd2c5",
+    "name": "Celana pendek — contoh 2",
+    "image": "/references/photo-0e88c86f-911f-4dd6-85b6-cb953e9dd2c5.jpg",
+    "attributes": [
+      "shorts"
+    ],
+    "source": "Clothing Dataset — Alexey Grigorev dan kontributor (CC0)",
+    "kind": "photo",
+    "sourceUrl": "https://github.com/alexeygrigorev/clothing-dataset-small/blob/11961516512414bf9f6c150a832cfd21b54a6b54/validation/shorts/0e88c86f-911f-4dd6-85b6-cb953e9dd2c5.jpg",
+    "license": "CC0-1.0",
+    "category": "shorts"
+  },
+  {
+    "id": "photo-0fc5edba-525c-4234-935f-af55b39530dc",
+    "name": "Celana pendek — contoh 3",
+    "image": "/references/photo-0fc5edba-525c-4234-935f-af55b39530dc.jpg",
+    "attributes": [
+      "shorts"
+    ],
+    "source": "Clothing Dataset — Alexey Grigorev dan kontributor (CC0)",
+    "kind": "photo",
+    "sourceUrl": "https://github.com/alexeygrigorev/clothing-dataset-small/blob/11961516512414bf9f6c150a832cfd21b54a6b54/validation/shorts/0fc5edba-525c-4234-935f-af55b39530dc.jpg",
+    "license": "CC0-1.0",
+    "category": "shorts"
+  },
+  {
+    "id": "photo-163d946e-7638-4069-92e0-1b02be330271",
+    "name": "Celana pendek — contoh 4",
+    "image": "/references/photo-163d946e-7638-4069-92e0-1b02be330271.jpg",
+    "attributes": [
+      "shorts"
+    ],
+    "source": "Clothing Dataset — Alexey Grigorev dan kontributor (CC0)",
+    "kind": "photo",
+    "sourceUrl": "https://github.com/alexeygrigorev/clothing-dataset-small/blob/11961516512414bf9f6c150a832cfd21b54a6b54/validation/shorts/163d946e-7638-4069-92e0-1b02be330271.jpg",
+    "license": "CC0-1.0",
+    "category": "shorts"
+  },
+  {
+    "id": "photo-17e1cea3-4010-4f4f-b7a4-77d96594e219",
+    "name": "Celana pendek — contoh 5",
+    "image": "/references/photo-17e1cea3-4010-4f4f-b7a4-77d96594e219.jpg",
+    "attributes": [
+      "shorts"
+    ],
+    "source": "Clothing Dataset — Alexey Grigorev dan kontributor (CC0)",
+    "kind": "photo",
+    "sourceUrl": "https://github.com/alexeygrigorev/clothing-dataset-small/blob/11961516512414bf9f6c150a832cfd21b54a6b54/validation/shorts/17e1cea3-4010-4f4f-b7a4-77d96594e219.jpg",
+    "license": "CC0-1.0",
+    "category": "shorts"
+  },
+  {
+    "id": "photo-1dbe9268-758f-4cd4-8f42-58b40ef4bb74",
+    "name": "Celana pendek — contoh 6",
+    "image": "/references/photo-1dbe9268-758f-4cd4-8f42-58b40ef4bb74.jpg",
+    "attributes": [
+      "shorts"
+    ],
+    "source": "Clothing Dataset — Alexey Grigorev dan kontributor (CC0)",
+    "kind": "photo",
+    "sourceUrl": "https://github.com/alexeygrigorev/clothing-dataset-small/blob/11961516512414bf9f6c150a832cfd21b54a6b54/validation/shorts/1dbe9268-758f-4cd4-8f42-58b40ef4bb74.jpg",
+    "license": "CC0-1.0",
+    "category": "shorts"
+  },
+  {
+    "id": "photo-273d37f5-1f5f-4ab2-bfbf-1e5a4648500c",
+    "name": "Celana pendek — contoh 7",
+    "image": "/references/photo-273d37f5-1f5f-4ab2-bfbf-1e5a4648500c.jpg",
+    "attributes": [
+      "shorts"
+    ],
+    "source": "Clothing Dataset — Alexey Grigorev dan kontributor (CC0)",
+    "kind": "photo",
+    "sourceUrl": "https://github.com/alexeygrigorev/clothing-dataset-small/blob/11961516512414bf9f6c150a832cfd21b54a6b54/validation/shorts/273d37f5-1f5f-4ab2-bfbf-1e5a4648500c.jpg",
+    "license": "CC0-1.0",
+    "category": "shorts"
+  },
+  {
+    "id": "photo-2459a9ab-b654-4aef-be7c-89340da78cec",
+    "name": "Rok — contoh 1",
+    "image": "/references/photo-2459a9ab-b654-4aef-be7c-89340da78cec.jpg",
+    "attributes": [
+      "skirt"
+    ],
+    "source": "Clothing Dataset — Alexey Grigorev dan kontributor (CC0)",
+    "kind": "photo",
+    "sourceUrl": "https://github.com/alexeygrigorev/clothing-dataset-small/blob/11961516512414bf9f6c150a832cfd21b54a6b54/validation/skirt/2459a9ab-b654-4aef-be7c-89340da78cec.jpg",
+    "license": "CC0-1.0",
+    "category": "skirt"
+  },
+  {
+    "id": "photo-2ac96388-4353-44b6-a174-de2f2523afd1",
+    "name": "Rok — contoh 2",
+    "image": "/references/photo-2ac96388-4353-44b6-a174-de2f2523afd1.jpg",
+    "attributes": [
+      "skirt"
+    ],
+    "source": "Clothing Dataset — Alexey Grigorev dan kontributor (CC0)",
+    "kind": "photo",
+    "sourceUrl": "https://github.com/alexeygrigorev/clothing-dataset-small/blob/11961516512414bf9f6c150a832cfd21b54a6b54/validation/skirt/2ac96388-4353-44b6-a174-de2f2523afd1.jpg",
+    "license": "CC0-1.0",
+    "category": "skirt"
+  },
+  {
+    "id": "photo-36d30ee9-1a06-49a5-94ca-1e58f13e7dc2",
+    "name": "Rok — contoh 3",
+    "image": "/references/photo-36d30ee9-1a06-49a5-94ca-1e58f13e7dc2.jpg",
+    "attributes": [
+      "skirt"
+    ],
+    "source": "Clothing Dataset — Alexey Grigorev dan kontributor (CC0)",
+    "kind": "photo",
+    "sourceUrl": "https://github.com/alexeygrigorev/clothing-dataset-small/blob/11961516512414bf9f6c150a832cfd21b54a6b54/validation/skirt/36d30ee9-1a06-49a5-94ca-1e58f13e7dc2.jpg",
+    "license": "CC0-1.0",
+    "category": "skirt"
+  },
+  {
+    "id": "photo-3878a7f2-61f1-4594-91f1-7e05e6227272",
+    "name": "Rok — contoh 4",
+    "image": "/references/photo-3878a7f2-61f1-4594-91f1-7e05e6227272.jpg",
+    "attributes": [
+      "skirt"
+    ],
+    "source": "Clothing Dataset — Alexey Grigorev dan kontributor (CC0)",
+    "kind": "photo",
+    "sourceUrl": "https://github.com/alexeygrigorev/clothing-dataset-small/blob/11961516512414bf9f6c150a832cfd21b54a6b54/validation/skirt/3878a7f2-61f1-4594-91f1-7e05e6227272.jpg",
+    "license": "CC0-1.0",
+    "category": "skirt"
+  },
+  {
+    "id": "photo-4c2b720f-6916-4edf-a732-847c55eec881",
+    "name": "Rok — contoh 5",
+    "image": "/references/photo-4c2b720f-6916-4edf-a732-847c55eec881.jpg",
+    "attributes": [
+      "skirt"
+    ],
+    "source": "Clothing Dataset — Alexey Grigorev dan kontributor (CC0)",
+    "kind": "photo",
+    "sourceUrl": "https://github.com/alexeygrigorev/clothing-dataset-small/blob/11961516512414bf9f6c150a832cfd21b54a6b54/validation/skirt/4c2b720f-6916-4edf-a732-847c55eec881.jpg",
+    "license": "CC0-1.0",
+    "category": "skirt"
+  },
+  {
+    "id": "photo-4d5d201a-11cb-4e5c-b291-9b8c833c4ddf",
+    "name": "Rok — contoh 6",
+    "image": "/references/photo-4d5d201a-11cb-4e5c-b291-9b8c833c4ddf.jpg",
+    "attributes": [
+      "skirt"
+    ],
+    "source": "Clothing Dataset — Alexey Grigorev dan kontributor (CC0)",
+    "kind": "photo",
+    "sourceUrl": "https://github.com/alexeygrigorev/clothing-dataset-small/blob/11961516512414bf9f6c150a832cfd21b54a6b54/validation/skirt/4d5d201a-11cb-4e5c-b291-9b8c833c4ddf.jpg",
+    "license": "CC0-1.0",
+    "category": "skirt"
+  },
+  {
+    "id": "photo-7f160564-1b10-4cf0-bb61-5d9af037e898",
+    "name": "Rok — contoh 7",
+    "image": "/references/photo-7f160564-1b10-4cf0-bb61-5d9af037e898.jpg",
+    "attributes": [
+      "skirt"
+    ],
+    "source": "Clothing Dataset — Alexey Grigorev dan kontributor (CC0)",
+    "kind": "photo",
+    "sourceUrl": "https://github.com/alexeygrigorev/clothing-dataset-small/blob/11961516512414bf9f6c150a832cfd21b54a6b54/validation/skirt/7f160564-1b10-4cf0-bb61-5d9af037e898.jpg",
+    "license": "CC0-1.0",
+    "category": "skirt"
+  },
+  {
+    "id": "photo-0090ca2c-e8c8-43f6-b764-e48e0e954006",
+    "name": "Kaos — contoh 1",
+    "image": "/references/photo-0090ca2c-e8c8-43f6-b764-e48e0e954006.jpg",
+    "attributes": [
+      "tshirt"
+    ],
+    "source": "Clothing Dataset — Alexey Grigorev dan kontributor (CC0)",
+    "kind": "photo",
+    "sourceUrl": "https://github.com/alexeygrigorev/clothing-dataset-small/blob/11961516512414bf9f6c150a832cfd21b54a6b54/validation/t-shirt/0090ca2c-e8c8-43f6-b764-e48e0e954006.jpg",
+    "license": "CC0-1.0",
+    "category": "tshirt"
+  },
+  {
+    "id": "photo-06de9ebd-be39-4cc6-aea7-1d047ccf1a52",
+    "name": "Kaos — contoh 2",
+    "image": "/references/photo-06de9ebd-be39-4cc6-aea7-1d047ccf1a52.jpg",
+    "attributes": [
+      "tshirt"
+    ],
+    "source": "Clothing Dataset — Alexey Grigorev dan kontributor (CC0)",
+    "kind": "photo",
+    "sourceUrl": "https://github.com/alexeygrigorev/clothing-dataset-small/blob/11961516512414bf9f6c150a832cfd21b54a6b54/validation/t-shirt/06de9ebd-be39-4cc6-aea7-1d047ccf1a52.jpg",
+    "license": "CC0-1.0",
+    "category": "tshirt"
+  },
+  {
+    "id": "photo-07b294ee-9a04-4795-9af2-7a1c801e8db0",
+    "name": "Kaos — contoh 3",
+    "image": "/references/photo-07b294ee-9a04-4795-9af2-7a1c801e8db0.jpg",
+    "attributes": [
+      "tshirt"
+    ],
+    "source": "Clothing Dataset — Alexey Grigorev dan kontributor (CC0)",
+    "kind": "photo",
+    "sourceUrl": "https://github.com/alexeygrigorev/clothing-dataset-small/blob/11961516512414bf9f6c150a832cfd21b54a6b54/validation/t-shirt/07b294ee-9a04-4795-9af2-7a1c801e8db0.jpg",
+    "license": "CC0-1.0",
+    "category": "tshirt"
+  },
+  {
+    "id": "photo-099de1d5-7422-4230-b11b-fe581139b82c",
+    "name": "Kaos — contoh 4",
+    "image": "/references/photo-099de1d5-7422-4230-b11b-fe581139b82c.jpg",
+    "attributes": [
+      "tshirt"
+    ],
+    "source": "Clothing Dataset — Alexey Grigorev dan kontributor (CC0)",
+    "kind": "photo",
+    "sourceUrl": "https://github.com/alexeygrigorev/clothing-dataset-small/blob/11961516512414bf9f6c150a832cfd21b54a6b54/validation/t-shirt/099de1d5-7422-4230-b11b-fe581139b82c.jpg",
+    "license": "CC0-1.0",
+    "category": "tshirt"
+  },
+  {
+    "id": "photo-09cd8fdf-bbe9-4908-8f54-f399bc635c9b",
+    "name": "Kaos — contoh 5",
+    "image": "/references/photo-09cd8fdf-bbe9-4908-8f54-f399bc635c9b.jpg",
+    "attributes": [
+      "tshirt"
+    ],
+    "source": "Clothing Dataset — Alexey Grigorev dan kontributor (CC0)",
+    "kind": "photo",
+    "sourceUrl": "https://github.com/alexeygrigorev/clothing-dataset-small/blob/11961516512414bf9f6c150a832cfd21b54a6b54/validation/t-shirt/09cd8fdf-bbe9-4908-8f54-f399bc635c9b.jpg",
+    "license": "CC0-1.0",
+    "category": "tshirt"
+  },
+  {
+    "id": "photo-0acef3a8-51f3-42ce-8842-10e4898c0a0f",
+    "name": "Kaos — contoh 6",
+    "image": "/references/photo-0acef3a8-51f3-42ce-8842-10e4898c0a0f.jpg",
+    "attributes": [
+      "tshirt"
+    ],
+    "source": "Clothing Dataset — Alexey Grigorev dan kontributor (CC0)",
+    "kind": "photo",
+    "sourceUrl": "https://github.com/alexeygrigorev/clothing-dataset-small/blob/11961516512414bf9f6c150a832cfd21b54a6b54/validation/t-shirt/0acef3a8-51f3-42ce-8842-10e4898c0a0f.jpg",
+    "license": "CC0-1.0",
+    "category": "tshirt"
+  },
+  {
+    "id": "photo-0e240297-2265-411e-b386-cb59a44f98ae",
+    "name": "Kaos — contoh 7",
+    "image": "/references/photo-0e240297-2265-411e-b386-cb59a44f98ae.jpg",
+    "attributes": [
+      "tshirt"
+    ],
+    "source": "Clothing Dataset — Alexey Grigorev dan kontributor (CC0)",
+    "kind": "photo",
+    "sourceUrl": "https://github.com/alexeygrigorev/clothing-dataset-small/blob/11961516512414bf9f6c150a832cfd21b54a6b54/validation/t-shirt/0e240297-2265-411e-b386-cb59a44f98ae.jpg",
+    "license": "CC0-1.0",
+    "category": "tshirt"
+  },
+  {
+    "id": "photo-03103065-f445-44a5-b707-53b73534f57d",
+    "name": "Kaos — contoh merah 1",
+    "image": "/references/photo-03103065-f445-44a5-b707-53b73534f57d.jpg",
+    "attributes": [
+      "tshirt"
+    ],
+    "source": "Clothing Dataset — Alexey Grigorev dan kontributor (CC0)",
+    "kind": "photo",
+    "sourceUrl": "https://github.com/alexeygrigorev/clothing-dataset-small/blob/11961516512414bf9f6c150a832cfd21b54a6b54/train/t-shirt/03103065-f445-44a5-b707-53b73534f57d.jpg",
+    "license": "CC0-1.0",
+    "category": "tshirt"
+  },
+  {
+    "id": "photo-07349830-408d-42b7-baeb-35ad9a21c6bf",
+    "name": "Kaos — contoh merah 2",
+    "image": "/references/photo-07349830-408d-42b7-baeb-35ad9a21c6bf.jpg",
+    "attributes": [
+      "tshirt"
+    ],
+    "source": "Clothing Dataset — Alexey Grigorev dan kontributor (CC0)",
+    "kind": "photo",
+    "sourceUrl": "https://github.com/alexeygrigorev/clothing-dataset-small/blob/11961516512414bf9f6c150a832cfd21b54a6b54/train/t-shirt/07349830-408d-42b7-baeb-35ad9a21c6bf.jpg",
+    "license": "CC0-1.0",
+    "category": "tshirt"
+  },
+  {
+    "id": "photo-10053308-100b-4249-a638-ec23b4df4138",
+    "name": "Kaos — contoh merah 3",
+    "image": "/references/photo-10053308-100b-4249-a638-ec23b4df4138.jpg",
+    "attributes": [
+      "tshirt"
+    ],
+    "source": "Clothing Dataset — Alexey Grigorev dan kontributor (CC0)",
+    "kind": "photo",
+    "sourceUrl": "https://github.com/alexeygrigorev/clothing-dataset-small/blob/11961516512414bf9f6c150a832cfd21b54a6b54/train/t-shirt/10053308-100b-4249-a638-ec23b4df4138.jpg",
+    "license": "CC0-1.0",
+    "category": "tshirt"
+  },
+  {
+    "id": "photo-106b79da-fc83-4be8-b138-0dc23b701541",
+    "name": "Kaos — contoh merah 4",
+    "image": "/references/photo-106b79da-fc83-4be8-b138-0dc23b701541.jpg",
+    "attributes": [
+      "tshirt"
+    ],
+    "source": "Clothing Dataset — Alexey Grigorev dan kontributor (CC0)",
+    "kind": "photo",
+    "sourceUrl": "https://github.com/alexeygrigorev/clothing-dataset-small/blob/11961516512414bf9f6c150a832cfd21b54a6b54/train/t-shirt/106b79da-fc83-4be8-b138-0dc23b701541.jpg",
+    "license": "CC0-1.0",
+    "category": "tshirt"
+  }
+];

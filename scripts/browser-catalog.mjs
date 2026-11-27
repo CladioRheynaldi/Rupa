@@ -1,0 +1,37 @@
+import assert from 'node:assert/strict';
+import {readFile} from 'node:fs/promises';
+import {createRequire} from 'node:module';
+const require=createRequire(import.meta.url);
+const {chromium}=require('C:/Users/Cladio/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const report=JSON.parse(await readFile('outputs/catalog-smoke-report.json','utf8'));
+const base='http://127.0.0.1:3050';
+const browser=await chromium.launch({channel:'msedge',headless:true});
+try {
+  const context=await browser.newContext({viewport:{width:1280,height:900}});
+  await context.request.post(base+'/api/auth',{headers:{origin:base},data:{action:'login',email:'alya@rupa.demo',password:'RupaDemo2026!'}});
+  const page=await context.newPage();const errors=[];page.on('pageerror',e=>errors.push(e.message));
+  await page.goto(base+`/orders/${report.orderId}/design`);
+  const work=page.locator('.numbered-design-workspace');await work.waitFor();
+  assert.equal(await work.locator('select').count(),0);
+  await work.getByRole('button',{name:'Cari referensi pakaian',exact:true}).waitFor();
+  const gallery=page.getByText('Hasil pencarian referensi',{exact:true});await gallery.waitFor();
+  await page.getByText(/Dasar foto terdeteksi: kaos, warna merah/).first().waitFor();
+  assert.ok(await gallery.evaluate(el=>el.closest('details').open));
+  const photos=page.locator('img[src*="/references/photo-"], img[src*="/api/files/catalog-photo-"]');assert.ok(await photos.count()>=1);
+  await photos.first().scrollIntoViewIfNeeded();await photos.first().waitFor();
+  await photos.first().evaluate(el=>el.decode());
+  assert.ok(await photos.first().evaluate(el=>el.complete&&el.naturalWidth>0));
+  assert.ok(await page.getByRole('link',{name:'Sumber gambar & lisensi'}).count()>=1);
+  const firstCard=page.locator(`img[src="${report.references[0].image}"]`).first().locator('..').locator('..');
+  const choose=firstCard.getByRole('button',{name:'Pilih referensi ini',exact:true});
+  if(await choose.count()) await choose.click();
+  await page.getByRole('button',{name:'Terpilih untuk konsultasi',exact:true}).waitFor();
+  const state=await(await context.request.get(base+'/api/state')).json();
+  const selected=state.jobs.find(j=>j.id===report.id);
+  assert.equal(selected.selectedReferenceId,report.references[0].id);
+  await page.screenshot({path:'test-results/catalog-search.png',fullPage:true});
+  await page.setViewportSize({width:390,height:844});
+  assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false,'No mobile horizontal overflow');
+  await page.screenshot({path:'test-results/catalog-search-mobile.png',fullPage:true});
+  assert.deepEqual(errors,[]);console.log('PASS: real photo gallery expanded, source links, no model selector, mobile layout, no browser errors.');
+}finally{await browser.close();}

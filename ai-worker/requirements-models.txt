@@ -1,0 +1,4 @@
+# Optional: install only into a dedicated environment after choosing CPU/CUDA.
+# Enables actual local FashionCLIP embedding inference, not model training.
+torch==2.14.1
+open_clip_torch==3.3.0
